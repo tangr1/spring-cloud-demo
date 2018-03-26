@@ -11,3 +11,6 @@ dependencies {
     compile 'org.springframework.cloud:spring-cloud-stream-binder-rabbit'
     compile 'com.google.guava:guava'
 }
+springBoot {
+    executable = true
+}
